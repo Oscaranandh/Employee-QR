@@ -1,0 +1,27 @@
+body {
+    background-color: white ;
+    /* background-image: url('/home/agnikul/frappe-bench/apps/agnikulfood/foodagnikul/public/images/eff17fdebb36591c75f6b501610a1fd2.gif') ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    
+}
+.entry{
+    background-image: url('./public/images/entry illustrator.png') !important;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-y:20px ;
+}
+.exit{
+    background-image: url('./public/images/ex.png') !important;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-position:bottom; */
+    background-position-y:20px ;
+    background-position-x: 150px;
+}
+.welcomehead{
+    background-image: url('./public/images/e & e.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,20 @@
+.custom-reader {
+    width: 600px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    top: -10px;
+    left: -250px;
+    position: absolute; /* This allows you to position child elements */
+    overflow: hidden; /* Hide anything exceeding the set width and height */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 20px;
+    boxShadow: "0 0 20px rgba(8, 7, 16, 0.3)"
+}
+  
+  /* Adjust the camera position within the container */
+  .video-element {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50%; /* 100% width to fill the container */
+    height: 50%; /* 100% height to fill the container */
+  }

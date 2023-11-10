@@ -1,0 +1,135 @@
+/* BarChart.css */
+
+.chart-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    border: 1px solid #ccc;
+    padding: 0 90px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    background-color: rgb(236, 245, 245);
+    padding-left: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      padding-left: 0px;
+    }
+  
+    .chart-bar {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .chart-container {
+      padding: 0 50px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .chart-container {
+      padding: 0 0;
+    }
+  }
+  
+  .bar-label {
+    color: black;
+    background-color: inherit;
+    padding: 5px;
+  }
+  
+  .chart-bar {
+    flex: 1;
+    background-color: inherit;
+    border-radius: 18px;
+    margin: 0 5px;
+    transition: height 0.5s;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-bar {
+      margin: 0 0 10px 0;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .chart-bar {
+      margin: 0 2px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .chart-bar {
+      margin: 0 5px;
+    }
+  }
+  
+  .chart-label {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-label {
+      font-size: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .chart-label {
+      margin-top: 3px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .chart-label {
+      margin-top: 6px;
+    }
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .inner-bar {
+    width: 100%;
+    border-radius: 18px;
+    transition: height 0.5s;
+    background-color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .inner-bar {
+      height: 30px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .inner-bar {
+      height: 40px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .inner-bar {
+      height: 50px;
+    }
+  }
+  
